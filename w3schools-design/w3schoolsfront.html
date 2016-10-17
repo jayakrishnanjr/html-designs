@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <title>login</title>
+	         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+             <style>
+             	#div1{
+             		padding-top: 15px;
+             		background-color:white;
+             	}
+             	#h11{
+             		color:black;
+             		font-size: 40px;
+               	}             	
+             	#h13{
+             		text-align: right;
+             	}
+             	#div2{
+             		background-color: green;
+             	}
+             	#span1
+             	{
+             		color: green;
+             		font-size: 40px;             		
+             	}
+             	#tu,#re,#ex{
+             		color:white;
+             		 padding: 10px 30px;             		
+             	}
+             	#div17{
+             		background-color: rgba(0, 0, 0, 0.16);
+             	}
+             	#f1{
+             	    background-color: rgba(0, 0, 0, 0.16);	
+             	    margin-top: 20px;
+             	    margin-bottom: 30px;
+             	}
+             	#a2{
+             		color:grey;
+             	}
+             	#a1{
+             		font-size: 20px;
+             		color:black;
+             		padding-top: 2px;
+             	}
+             	#a2,#a3,#a4,#a5,#a6{
+             		
+             		color:black;
+             		padding-top: 20px;
+             	}
+             	#s1,#s2,#s3,#s4,#s5,#s7{
+             		padding-left: 60px;            		
+                }
+                #s9
+                {
+                	padding-left: 70px;
+                }
+                #s12{
+                	padding-left: 60px;
+                }
+                #s15,#s16,#s17{
+                	padding-left:70px; 
+                }
+                #s19{
+                	padding: 20px;
+                }
+                #divpan{
+                	background-color: #f2f2f2;
+                }
+                #h1html{
+                	font-size: 80px;
+                	text-align: center;
+                	text-shadow: #616161 ;
+                	color:#616161 ;
+                }
+                #p1html{
+                	font-size: 20px;
+                	text-align: center;
+                	color:#616161; 
+                }
+                #div10{
+                	padding: 3%;
+                	box-sizing: border-box;
+                	box-shadow: #616161;
+                	background-color: rgba(0, 0, 0, 0.16);
+                	
+                }
+                #div100{
+                	padding: 15px 10px;
+                    height: 260px;
+                	box-sizing: border-box;
+                	box-shadow: #616161;
+                	background-color: white;
+                	text-align: center;
+                	
+                }
+                #hnt{
+                	font-size: 45px;
+                	color:grey;
+                }
+                #hft{
+                	font-size: 16px;
+                	color:grey;
+                }
+                #div7{
+                	padding: 40px;
+                }
+                #div25{
+                	box-sizing: border-box;
+                	line-height: 1.4;
+                	width: auto;
+					background-color: #FFF;
+					padding: 8px 12px;
+					border-left-width: 4px;
+					border-left-style: solid;
+					border-left-color: #4CAF50;
+					margin: 20px 0px;
+                }
+
+                .but{
+                	color: #FFF;
+					background-color:green;
+					font-size: 5px;
+                }
+                .blue{
+                	color:blue;
+                }
+                .brown{
+                	color:brown;
+                }
+                .red{
+                	color:red;
+                }
+                #s1{
+                	padding: 60px;
+                }
+                #s2{
+                	padding: 222px;
+                }
+                #btn2{
+                	background-color:grey;
+                	font-size: 16px;
+                	font-style: bold;
+                	color:white;
+                }
+                #css{
+                	font-size: 50px;
+                }
+                .black
+                {
+                	color:black;
+                }
+                #b2{
+                	padding:20px;
+                }
+                #b1{
+                	padding: 18px;
+                }
+                #h3html{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                #r5{
+                	background-color: rgba(0, 0, 0, 0.16);
+                }
+                #r6{
+                	background-color: white;
+                }
+                #spn{
+                	padding-top: 300px;
+                }
+                img{
+                	padding: 10px;
+                	width:150px height:128px;
+                }
+                .bt{
+                	text-align: center;
+                	font-size: 16px;
+                    margin: 0px -16px;
+                }                
+                #p12{
+                	color:grey;
+                	font-size:15px;
+                	margin-size:16px;
+                	text-align: center;
+                }
+                #p22{
+                	color:grey;
+                	font-size:15px;
+                	margin-size:16px;
+                	font-style: underline;
+                }
+                #s00{
+                   padding: 200px;
+                }
+                #s01{
+                	padding:50px;
+                }
+            </style>
+    </head>
+         <body>
+		     <div class="container">
+		         <div class="row" id="div1">
+		       	     <div class="col-md-6">
+		     		     <a href="www.w3schools.com" id="h11">w3schools
+		     		     <span id="span1">.com</span></a>
+		     	     </div>		     	     
+		     	     <div class="col-md-6">
+		     		     <h4 id="h13">THE WORLD'S LARGEST WEB DEVELOPER SITE </h4>
+		     	     </div>
+				 </div>
+				 <div class="row" id="div2">
+				 	 <div class="col-md-12">
+				  	     <ul class="nav nav-tabs" role="tablist">
+                              <li class="dropdown">
+                                 <a class="dropdown-toggle" data-toggle="dropdown" href="TU" id="tu">
+                                  TUTORIALS <span ></span></a>
+                                 <ul class="dropdown-menu" role="menu">
+                                     <li><a href="#">HTML</a></li>
+                                     <li><a href="#">CSS</a></li>
+                                     <li><a href="#">JavaScript</a></li>                        
+                                 </ul>
+                              </li>
+                              <li class="dropdown">
+                                 <a class="dropdown-toggle" data-toggle="dropdown" href="RE" id="re">
+                                  REFERENCES <span ></span></a>
+                                 <ul class="dropdown-menu" role="menu">
+                                     <li><a href="#">HTML</a></li>
+                                     <li><a href="#">CSS</a></li>
+                                     <li><a href="#">JavaScript</a></li>                        
+                                 </ul>
+                              </li>
+                              <li class="dropdown">
+                                 <a class="dropdown-toggle" data-toggle="dropdown" href="EX" id="ex">
+                                  EXAMPLE <span ></span></a>
+                                 <ul class="dropdown-menu" role="menu">
+                                     <li><a href="html">HTML</a></li>
+                                     <li><a href="css">CSS</a></li>
+                                     <li><a href="js ">JavaScript</a></li>                        
+                                 </ul>
+                              </li>
+  						 </ul>
+                     </div>
+                 </div>
+		         <div class="row">
+		     	     <div class="col-md-2" id="divpan">
+		     	     	 <a id="a1" href="html and css">HTML and CSS</a>
+						 <a id="a2" href="html">Learn HTML<span id="s4"></span></a>
+						 <a id="a3" href="css" >Learn CSS<span id="s1"></span></a>
+						 <a id="a4" href="learn">Learn W3.CSS<span id="s2"></span></a>
+                         <a id="a5" href="learn">Learn Colors<span id="s3"></span></a>
+                         <a id="a6" href="boot">Learn Bootstrap<span id="s7"></span></a>
+                         
+                         <a id="a1" href="js">Learn JS<span id="s12"></span></a>
+						 <a id="a3" href="JS" >Learn Javascript<span id="s1"></span></a>
+						 <a id="a4" href="JQ">Learn jQuery<span id="s2"></span></a>
+                         <a id="a6" href="ja">Learn AppML<span id="s7"></span></a>
+                         
+                         <a id="a1" href="hg">HTML GRAPHICS</a>
+						 <a id="a2" href="canvas">LEARN canvas<span id="s5"></span></a>
+						 <a id="a3" href="svg" >Learn svg<span id="s9"></span></a>
+						 <a id="a4" href="icon">Learn Icon<span id="s2"></span></a>
+                         <a id="a5" href="colors">Learn Colors<span id="s3"></span></a>
+                         <a id="a6" href="gm">Learn maps<span id="s15"></span></a>
+                         
+                         <a id="a1" href="ss">server side</a><span id="s19"></span>
+						 <a id="a2" href="sql">Learn SQL<span id="s15"></span></a>
+						 <a id="a3" href="php" >Learn PHP<span id="s16"></span></a>
+						 <a id="a4" href="net">Learn .NET<span id="s17"></span></a>
+
+						 <a id="a1" href="webb">Web building</a><span id="s19"></span>
+						 <a id="a2" href="html">web template<span id="s4"></span></a>
+						 <a id="a3" href="css" >web statitics<span id="s1"></span></a>
+						 <a id="a4" href="learn">web certificates<span id="s2"></span></a>
+
+						 <a id="a1" href="ss">XML Tutorials</a><span id="s19"></span>
+						 <a id="a2" href="sql">Learn XML<span id="s15"></span></a>
+						 <a id="a3" href="php" >Learn XSLT<span id="s16"></span></a>
+						 <a id="a4" href="net">Learn AJAX<span id="s17"></span></a>
+		     	     </div>
+		     	     <div class="col-md-10">
+		     	          <div class="row">
+		     	              <div class="col-md-5 col-md-offset-1" >
+		     	                  <h1 id="h1html">HTML</h1>
+		     	                  <P id="p1html">The language for building web pages</P>		     	                  
+		     	                  <a href="html" class="btn" id="btn2">LEARN HTML</a>
+		     	                  <span id="b2"></span>
+		     	                  <a href="html" class="btn" id="btn2">HTML REFERENCE</a>
+		                      </div>
+		                      <div class="col-md-5" id="div7">
+		                          <div id="div10">
+		                          	 <H4>HTML Example:</H4>
+		                          	 <div id="div25">	
+		       						      <span class="blue"><</span>
+									      <span class="brown">!DOCTYPE</span> 
+									      <span class="red">html</span>
+										  <span class="blue">></span><br>
+										  <span class="blue" ><</span>
+										  <span class="brown">html</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">title</span>
+										  <span class="blue">></span>HTMLTutorial
+										  <span class="blue"><</span>
+										  <span class="brown">/title</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">body</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">h1</span>
+										  <span class="blue">></span>This is a heading
+										  <span class="blue"><</span>
+										  <span class="brown">/h1</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">p</span>
+										  <span class="blue">></span>This is a paragraph.
+										  <span class="blue"><</span>
+										  <span class="brown">/p</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">/body</span>
+										  <span class="blue">></span><br>
+										  <span class="blue"><</span>
+										  <span class="brown">/html</span>
+										  <span class="blue">></span>
+  		                             </div>
+		                                 <a class="btn  btn-success" id="but" href="try">Try Yourself>> </a>
+		                         </div>
+
+		                     </div>
+		                     </div>  
+		                     <div class="row" id="div17">
+		                         <div class="col-md-5" id="div7">
+		                             <div id="div10">
+			                          	 <H4>CSS Example:</H4>
+			                          	 <div id="div25">			       						      
+										      <span class="brown">body</span> 
+										      <span class="black">{</span><br>
+										      <span class="red">background-color :</span>
+											  <span class="blue">lightblue;</span><br>
+											  <span class="black" >}</span>
+											  <span class="brown">h1</span>
+											  <span class="black">{</span><br>
+											  <span class="red">color :</span>
+											  <span class="blue">white;</span><br>
+											  <span class="red">text-align:</span>
+											  <span class="blue">center;</span><br>
+											  <span class="black">}</span><br>
+											  <span class="brown">p</span>
+											  <span class="black">{</span><br>
+											  <span class="red">font-family:</span>
+											  <span class="blue">verdana</span><br>
+											  <span class="red">font-size:</span>
+											  <span class="blue">50</span>
+											  <span class="brown">px</span><br>
+											  <span class="black">}</span>
+	  		                             </div>
+		                                 <a class="btn  btn-success" id="but" href="try">Try Yourself>> </a>
+		                             </div>
+		                         </div>    
+		                         <div class="col-md-5 " >
+		     	                     <h1 id="h1html">CSS</h1>
+		     	                     <P id="p1html">The language for styling web pages</P>
+		     	                     <span id="b1"></span>
+		     	                     <a href="CSS" class="btn" id="btn2">LEARN CSS</a>
+		     	                     <span id="b2"></span>
+		     	                     <a href="REF" class="btn" id="btn2">CSS REFRENCE</a>
+		                         </div>
+		                     </div>        		                
+		                     <div class="row">
+		                         <div class="col-md-5" >
+		     	                     <h2 id="h3html">Java Script</h2>
+		     	                     <P id="p1html">The language for programming web pages</P>
+		     	                     <span id="b1"></span>
+		     	                     <a href="CSS" class="btn" id="btn2">LEARN JS</a>
+		     	                     <span id="b2"></span>
+		     	                     <a href="REF" class="btn" id="btn2">JS REFRENCE</a>
+		                         </div>
+		                         <div class="col-md-5 col-md-offset-1" id="div7">
+		                             <div id="div10">
+			                          	 <H4>JS Example:</H4>
+			                          	 <div id="div25">			       						      
+										      <span class="blue"><</span> 
+										      <span class="brown">script</span>
+										      <span class="blue">></span><br>
+										      <span class="black">function</span> 
+										      <span class="brown">myfunction</span>
+										      <span class="black">(){</span><br>
+											  <span class="brown">var</span>
+											  <span class="black"> x</span>
+											  <span class="black">=</span><br>
+											  <span class="black">document.getElementById(</span>
+											  <span class="blue">"demo"</span>
+											  <span class="black">);</span><br>
+											  <span class="black">}</span>
+											  <span class="blue"><</span> 
+										      <span class="brown">script</span>
+										      <span class="blue">></span>
+	  		                             </div>
+		                                 <a class="btn  btn-success" id="but" href="try">Try Yourself>> </a>
+		                             </div>
+		                         </div>    
+		                     </div>        
+		                <div class="row" id="r5">
+		                     <div class="col-md-4">
+		                         <div id="div100">		                         	
+									   <h2 id="hnt">SQL</h2>
+									   <p id="hft">A language for accessing databases</p>
+									   <a href="learn" class="btn" id="btn2">LEARN SQL</a>  
+		                         </div>
+		                     </div>
+		                     <div class="col-md-4">
+		                         <div id="div100">
+		                         	<h2 id="hnt">PHP</h2>
+									<p id="hft">A web server programming language</p>
+									   <a href="learn" class="btn" id="btn2">LEARN PHP</a>  
+		                         </div>		                     	
+		                     </div>
+		                     <div class="col-md-4">
+		                     <span id="spn"></span>
+		                         <div id="div100">
+		                         	<h2 id="hnt">jQuery</h2>
+									<p id="hft">A JavaScript library for developing web pages</p>
+									<a href="learn" class="btn" id="btn2">LEARN jQuery</a>  
+		                         </div>		                     	
+		                     </div>
+		                	</div>
+		                	<div class="row" id="r6">
+		                         <div class="col-md-4">
+		                             <div id="div100">		                         	
+									     <h2 id="hnt">W3.CSS</h2>
+									     <p id="hft">A modern CSS framework for faster and better responsive web sites</p>
+									     <a href="learn" class="btn" id="btn2">LEARN w3.css</a>  
+		                             </div>
+		                         </div>
+		                         <div class="col-md-4">
+		                             <div id="div100">
+		                         	     <a href="color" id="hnt">color picker<span id="jk1"></span>
+		                         	    	<img src="colorpicker.png" id="img"></a>					 
+		                              </div>		                     	
+		                         </div>
+		                         <div class="col-md-4">
+		                             <span id="spn"></span>
+		                             <div id="div100">
+		                         	     <h2 id="hnt">Bootstrap</h2>
+									     <p id="hft">Bootstrap is a CSS framework for designing better web pages</p>
+									     <a href="learn" class="btn" id="btn2">LEARN BOOTSTRAP</a>  
+		                             </div>		                     	
+		                         </div>
+		                    </div>
+		                    <footer id="f1">		                  
+		                         <div class="row">
+		                             <div class="col-md-12" >
+		                                 <span id="s00"></span>
+		                                 <div class="col-md-3 col-md-offset-5 ">
+		                                 	  <a href="web" class="btn" id="btn2">WEB CERTIFICATES</a> 
+		                                 </div>
+		                                 <div class="row">
+		                                     <div class="col-md-2 col-md-offset-10 ">
+		                                 	 <a href="learn" id="p12">FORUM</a>|
+		                                 	 <a href="learn" id="p12">ABOUT</a>
+		                                     </div>
+		                                 </div>
+		                                 <span id="s00"></span>
+		                                 <div>
+			                                 <p id="p12">W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic<br> understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full<br> correctness of all content. While using this site, you agree to have read and accepted our terms of use, <a href="cookies" id="p22"><u>cookie and privacy </a></u>,<br><a href="policy" id="p22"><u>policy.</a></u><br><a href="copy" id="p22"><u>Copyright</a></u> 1999-2016 by Refsnes Data. All Rights Reserved.</p>
+                                         </div>
+                                         <span id="s01"></span>
+		                             </div>
+		                         </div>		                         	                    	
+		                    </footer>
+		                </div>
+    		        </div>
+    		    </div> 
+    	   </div>
+	 </body>
+</html>		        

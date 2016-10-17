@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <title>login</title>
+	         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <style>
+         	#div1 {
+         		padding-top: 120px;
+
+         	}
+         	#div4 {
+         		padding-top: 20px;
+        	}
+         	#div7 {
+         		padding-top: 40px;
+         		padding-left: 60px;
+         	}
+         	#a1{
+         		padding-left: 130px;
+         	}
+         	#form1{
+         		border-style:solid;
+         		border-color: #D8DEE2;
+         		border-width:.5px;
+         		border-color: rgb(128,128,128); 
+         		padding-top: 20px;
+         		padding-right:20px; 
+         		padding-left:20px;
+         		padding-bottom:20px;
+         		border-radius: 5px;
+         	}
+           	#form2{
+         		text-align: center;
+         		border-style:solid;
+         		border-color: #D8DEE2;
+         		border-width:1px;
+         		border-color: rgb(128,128,128); 
+         		padding-top: 20px;
+         		padding-right:10px; 
+         		padding-left:10px;
+         		padding-bottom:10px;
+         		border-radius: 5px;
+         	}
+         	#a2,#a5,#a3,#a4{
+         		color: grey;
+         	}
+         	
+         	#div11{
+         		padding: 5px;
+         	}        	
+         </style> 
+     </head>
+     <!--body part  -->
+         <body>
+             <div class="container" id="div1" >            
+                 <div class="row">
+                     <div class="col-md-4 col-md-offset-4">
+                         <h3 class="text-center login-title">sign in to Github</h3>
+                             <form class="form-signin" id="form1">
+                                   <label>Username or Email address</label>
+                                   <input type="text" class="form-control" placeholder="username" >
+                                   <label>Password<a href="www.forgetpassword.com" id="a1">forgot password</a></label>   
+                                   <input type="password" class="form-control" placeholder="Password" >
+                                 <div id="div4">
+                                     <button id="b1" class="btn btn-lg btn-success btn-block" type="submit">Sign In</button>
+                                 </div>
+                             </form>
+                    </div>
+                 </div>   
+                        <div class="row" id="div11">
+                             <div class="col-md-4 col-md-offset-4" >
+                                 <form id="form2" class="form-group">
+                        	          <label>New here? <a href="signup" >Create an account.</a></label> 
+                                 </form>
+                             </div>
+                         </div>
+                    <div>   
+                         <div class="col-md-4 col-md-offset-4" id="div7">
+                             <a href="Terms" id="a2">Terms </a>
+                             <a href="Privacy" id="a3">Privacy</a>
+                             <a href="Security" id="a4">Security</a>
+                             <a href="Contact GitHub" id="a5">Contact us</a>
+                          </div>    
+                    </div>
+            </div>
+         </body>
+</html>
